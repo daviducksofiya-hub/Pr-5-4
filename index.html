@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обчислення за умовою</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header><h1>Обчислення за умовою</h1></header>
+    
+<section class="panel"><h2>Розгалужене обчислення</h2><p>Варіант 4: якщо x &lt; 0, y = x² + 4; якщо x = 0, y = 0; якщо x &gt; 0, y = √x + 4.</p><label>Початок<input id="a" type="number" value="-6"></label><label>Кінець<input id="b" type="number" value="6"></label><label>Крок<input id="h" type="number" value="2"></label><button onclick="calc()">Обчислити</button><table><thead><tr><th>x</th><th>y</th><th>Умова</th></tr></thead><tbody id="rows"></tbody></table></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
